@@ -1,0 +1,94 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: sans-serif;}
+
+.container {
+  height: 100%; }
+  .container .sidebar img {
+    width: 28px;
+    margin: 16px 0 0 20px; }
+  .container .sidebar .historyList {
+    width: 180px;
+    margin-left: -180px;
+    height: 100%;
+    color: #FFF;
+    background-color: #CCC;
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    max-width: 180px; }
+  .container .sidebar .historyList.slideleft {
+    margin-left: 0;
+    top: 0;
+    padding: 10px 0 0 12px; }
+    .container .sidebar .historyList.slideleft p {
+      color: #FFF;
+      margin: 0.8em 0 0 0.8em; }
+  .container .header {
+    padding-top: 10px; }
+    .container .header .logo {
+      float: left; }
+    .container .header h2 {
+      text-align: center; }
+  .container .camera {
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+  .container .camera.slideup {
+    background-color: rgba(38, 38, 38, 0.6);
+    width: 100%;
+    top: 8%;
+    opacity: 1; }
+    .container .camera.slideup #qr-canvas {
+      width: 640;
+      height: 480; }
+  .container .background {
+    background-color: #EEE;
+    width: 100%;
+    height: 100%; }
+    .container .background .content_container {
+      overflow: scroll;
+      margin: 0 auto;
+      border: 1px solid #262626;
+      width: 60%;
+      padding: 18px;
+      height: 100%; }
+      .container .background .content_container .header-content {
+        font-size: 25px; }
+      .container .background .content_container .picture #content_img {
+        width: 250px;
+        max-height: 200px;
+        margin-top: 14px;
+        width: auto; }
+  .container .bottom {
+    background-color: #262626;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .container .bottom img {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 28px;
+      width: 44px; }
+    .container .bottom .left_navigation, .container .bottom .right_navigation {
+      color: white; }
+
+.animatedCSS {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+/*# sourceMappingURL=default.css.map */
